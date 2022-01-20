@@ -107,10 +107,36 @@ hr{
     font-size: 16px;
     margin-left: 20px;
 }
-
-
-
+button{
+    color: #E02C6D;
+    font-size: 18px;
+    padding: 0;
+    border: none;
+    background: none;
     
+}
+
+
+
+
+
+
+/*----------------------footer decoration---------- */
+  
+.footer{
+    width: 1350px;
+    height: 200px;
+    background-color: #0A0826;
+    text-align: center;    
+}
+.footer-headline, .footer-site{
+    color: white;
+}
+.footer-font{
+    color: white;
+    font-size: 18px;
+    word-spacing: 30px;
+}
     
 
 

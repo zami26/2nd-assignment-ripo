@@ -69,7 +69,48 @@ hr{
 .product-heading{
     text-align: center;
     margin-top: 100px;
+    }
+.product-container{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     justify-items: center;
+     margin: 50px;
+    }
+.product{
+    color: black;
+    background-color: white;
+    border: 1px solid lightyellow;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 10px  gray;  
+    margin-bottom: 50px;  
+    
 }
-.fa-star {
+.product-name{
+    margin-left: 20px;
+}
+
+.product-rating{
+    margin-left: 20px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.color {
     color: #FB8200;
 }
+.fa-star.empty{
+    color: white;
+}
+.discription{
+    color: lightslategray;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+
+
+    
+    
+
+

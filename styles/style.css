@@ -1,0 +1,75 @@
+/* -----------
+full body font style
+----------------- */
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+}
+/*------ common style----- */
+
+body{font-family: 'Poppins', sans-serif;
+background-color: white;}
+
+  /*-------- navigation tag design------ */
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 40px;
+}
+.first-heading{ margin-left: 50px;}
+.navigation-bars>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-right: 35px;
+}
+/*-------- navigation tag design ending--------*/
+
+
+/* ----First section contain with text and photo----- */
+.starting-section{
+    display:flex;
+    margin: 40px 100px;
+    justify-content: space-between;
+}
+.main-headline{
+    font-size: 30px;
+}
+#first-pragragh{
+    font-size: 18px;
+}
+.first-button{
+    border: 1px solid whitesmoke;
+    width: 180px;
+    background-color: #E02C6D;
+    padding: 10px;
+    border-radius: 40px;
+    color: white;
+    font-size: 18px;    
+}
+.main-camera:hover{transform: scale(1.1) skew(-20deg);
+    transition: transform 1s ease-in-out;
+}
+/* ----First section contain with text and photo   ended----- */
+
+hr{
+    border: 1px solid #EAEEF2;
+    width: 70%;
+    margin-top: 60px 0 0 20px;
+}
+/* --------divition of compani----------- */
+.companies{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 250px;
+    margin-top: 35px;
+    width: 840px;
+}
+.product-heading{
+    text-align: center;
+    margin-top: 100px;
+}
+.fa-star {
+    color: #FB8200;
+}

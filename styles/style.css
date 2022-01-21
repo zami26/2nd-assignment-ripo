@@ -28,7 +28,7 @@ background-color: white;}
 
 
 /* ----First section contain with text and photo----- */
-.starting-section{
+.starting-section,.creative-part{
     display:flex;
     margin: 40px 100px;
     justify-content: space-between;
@@ -53,6 +53,7 @@ background-color: white;}
 }
 /* ----First section contain with text and photo   ended----- */
 
+
 hr{
     border: 1px solid #EAEEF2;
     width: 70%;
@@ -66,6 +67,12 @@ hr{
     margin-top: 35px;
     width: 840px;
 }
+
+
+/* --------divition of compani ended----------- */
+
+
+/* -----------products photo and details-------------- */
 .product-heading{
     text-align: center;
     margin-top: 100px;
@@ -113,10 +120,38 @@ button{
     padding: 0;
     border: none;
     background: none;
-    
 }
+.moor-products{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+/* -----------products photo and details ended-------------- */
+  
 
-
+ /*----------------design of creative part--------- */
+.up-comming-product>h1{
+    color: black;
+    font-weight: 800;
+    font-size: 35px;
+    margin-left: 60px;    
+}
+.up-comming-product>p{
+    color: #7F7F7F;
+    margin-left: 60px;
+    font-weight: 600;
+}
+.up-comming-product>input{
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border: 1px solid white;
+    margin-left: 60px;
+    font-size: 18px;
+}
+/*----------------design of creative part ended--------- */
 
 
 
@@ -137,6 +172,9 @@ button{
     font-size: 18px;
     word-spacing: 30px;
 }
-    
+
+
+
+
 
 
